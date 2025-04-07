@@ -544,4 +544,45 @@ body { background-color: var(--white); color: var(--gray-web); font-size: 1.6rem
 }
 
 
+/* banner */
+
+.banner-list {
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
+@media (max-width: 768px) {
+    .banner-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.banner-card {
+    background-color: var(--light-gray);
+    min-height: 400px;
+    width: 500px;
+    padding: 40px;
+    padding-block-end: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-card .card-subtitle {
+    color: var(--black);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-600);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-card :is(.card-subtitle, .card-title) { text-shadow: 0 0 2px var(--cultured-2); }
+
+.banner-card-1 .card-title { margin-block: 10px 30px; }
+
+.banner-card .card-text {
+    color: var(--black);
+    font-size: var(--fs-7);
+    margin-block: 10px 25px;
+}
 
