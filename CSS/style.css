@@ -84,6 +84,7 @@ body { background-color: var(--white); color: var(--gray-web); font-size: 1.6rem
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
+
 /* body */
 .container { padding-inline: 15px; }
 
@@ -545,7 +546,6 @@ body { background-color: var(--white); color: var(--gray-web); font-size: 1.6rem
 
 
 /* banner */
-
 .banner-list {
     display: flex;
     gap: 30px;
